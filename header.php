@@ -26,7 +26,6 @@
             <div class="header_inner">
                 <h1 class="header_title"><a href="<?php echo esc_url(home_url('/'));?>"><?php bloginfo('name');?></a></h1>
             </div>
-            <?php get_search_form(); ?>
         </div>
         <div class="header_bottom">
             <?php
