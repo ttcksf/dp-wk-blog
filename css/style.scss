@@ -568,6 +568,7 @@ textarea {
     }
   }
   .cards {
+    margin-bottom: 65px;
     .card {
       width: 100%;
       margin: 65px 0;
@@ -619,6 +620,9 @@ textarea {
       box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
       transition: 0.3s;
     }
+  }
+  .pagenation {
+    margin-bottom: 110px;
   }
 }
 @include mq("md") {
@@ -801,12 +805,6 @@ textarea {
 }
 @include mq("lg") {
   .category {
-    .cards {
-      margin-bottom: 65px;
-    }
-    .pagenation {
-      margin-bottom: 110px;
-    }
   }
 }
 

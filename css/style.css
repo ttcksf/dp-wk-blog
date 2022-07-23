@@ -708,6 +708,10 @@ textarea {
   color: #333333;
 }
 
+.postbox .cards {
+  margin-bottom: 65px;
+}
+
 .postbox .cards .card {
   width: 100%;
   margin: 65px 0;
@@ -768,6 +772,10 @@ textarea {
           box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
   -webkit-transition: 0.3s;
   transition: 0.3s;
+}
+
+.postbox .pagenation {
+  margin-bottom: 110px;
 }
 
 @media screen and (min-width: 768px) {
@@ -977,15 +985,6 @@ textarea {
 
 .category .post_search {
   margin-bottom: 130px;
-}
-
-@media screen and (min-width: 960px) {
-  .category .cards {
-    margin-bottom: 65px;
-  }
-  .category .pagenation {
-    margin-bottom: 110px;
-  }
 }
 
 /* search */

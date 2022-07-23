@@ -43,6 +43,26 @@
                 endif;
                 wp_reset_postdata();
             ?>
+            <?php
+                if(paginate_links()):
+            ?>
+                <div class="pagenation">
+                    <?php 
+                    echo paginate_links(
+                        array(
+                            'end-size' => 1,
+                            'mid_size' => 5,
+                            'prev-next' => true,
+                            'prev_text' => '<i class="fas fa-arrow-left"></i>',
+                            'next_text' => '<i class="fas fa-arrow-right"></i>'
+                        )
+                    );
+                    ?>
+                </div>
+            <?php 
+                endif;
+            ?>
+                </div>
             </div>
         </section>
 

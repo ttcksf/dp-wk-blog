@@ -64,9 +64,6 @@
                     endif;
                 ?>
 
-                <div class="post_search">
-                    <?php get_search_form(); ?>
-                </div>
             </div>
         </section>
     </main>

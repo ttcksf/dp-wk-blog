@@ -4,6 +4,7 @@
 
         <section class="section postbox category">
             <div class="postbox_inner inner">
+            <?php get_search_form(); ?>
                 <?php
                     $category = get_category($cat);
                     $args = array("post_type" => "post", "paged" => $paged, "category_name" => $category->slug);
@@ -64,10 +65,6 @@
                 ?>
                 </div>
 
-                <div class="post_search">
-                    <?php get_search_form(); ?>
-                </div>
-            </div>
         </section>
     </main>
 
