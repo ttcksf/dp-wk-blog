@@ -4,6 +4,7 @@
 
         <section class="section postbox">
             <div class="postbox_inner inner">
+                <?php get_search_form(); ?>
                 <?php 
                     $args = array("post_type" => "post", "paged" => $paged);
                     // $args = array("post_type" => "post", "posts_per_page" => 6, "paged" => $paged);

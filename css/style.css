@@ -4,14 +4,15 @@
           box-sizing: border-box;
 }
 
-html, body {
+html,
+body {
   margin: 0;
   padding: 0;
   font-size: 62.5%;
 }
 
 body {
-  font-family: "メイリオ", "Meiryo", "arial", "游ゴシック Medium","Yu Gothic Medium","游ゴシック体", YuGothic, Georgia, Times , Times New Roman, sans-serif;
+  font-family: "メイリオ", "Meiryo", "arial", "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック体", YuGothic, Georgia, Times, Times New Roman, sans-serif;
   font-weight: 400;
   color: #333333;
   font-size: 1.6rem;
@@ -35,7 +36,10 @@ a:hover {
   opacity: 0.6;
 }
 
-a:link, a:visited, a:hover, a:active {
+a:link,
+a:visited,
+a:hover,
+a:active {
   color: #333333;
 }
 
@@ -126,8 +130,8 @@ textarea {
   display: inline-block;
   line-height: 48px;
   border-bottom: 4px solid #707070;
-  font-family: "游ゴシック Medium","Yu Gothic Medium","游ゴシック体", YuGothic;
-  font-size: 3.0rem;
+  font-family: "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック体", YuGothic;
+  font-size: 3rem;
   font-weight: bold;
 }
 
@@ -151,17 +155,17 @@ textarea {
   width: 40px;
   height: 40px;
   line-height: 38px;
-  color: #2699FB;
+  color: #2699fb;
   font-family: "arial";
   font-weight: bold;
   font-size: 1.7rem;
-  border: 2px solid #2699FB;
+  border: 2px solid #2699fb;
   border-radius: 50%;
   text-align: center;
 }
 
 .pagenation .page-numbers.current {
-  background-color: #2699FB;
+  background-color: #2699fb;
   color: #ffffff;
 }
 
@@ -180,10 +184,10 @@ textarea {
 
 .post_search input[type="search"] {
   width: 100%;
-  font-family: "游ゴシック Medium","Yu Gothic Medium","游ゴシック体", YuGothic;
+  font-family: "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック体", YuGothic;
   font-weight: bold;
   color: #333333;
-  background-color: #D3D3D3;
+  background-color: #d3d3d3;
   border: 0px;
   border-radius: 4px;
   padding: 15px 18px;
@@ -209,7 +213,7 @@ textarea {
   color: #333333;
 }
 
-.post_search input[type='search']:-ms-input-placeholder {
+.post_search input[type="search"]:-ms-input-placeholder {
   padding: 15px 20px 18px;
 }
 
@@ -218,7 +222,7 @@ textarea {
 }
 
 .select_pref::after {
-  content: '';
+  content: "";
   position: absolute;
   top: 45%;
   right: 20px;
@@ -226,8 +230,8 @@ textarea {
           transform: translate(0, -50%) rotate(-45deg);
   width: 10px;
   height: 10px;
-  border-left: 2px solid #2699FB;
-  border-bottom: 2px solid #2699FB;
+  border-left: 2px solid #2699fb;
+  border-bottom: 2px solid #2699fb;
 }
 
 .sp_br {
@@ -364,7 +368,7 @@ textarea {
 
 /* header */
 .header {
-  font-family: "游ゴシック Medium","Yu Gothic Medium","游ゴシック体", YuGothic;
+  font-family: "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック体", YuGothic;
   position: fixed;
   top: 0;
   left: 0;
@@ -378,43 +382,6 @@ textarea {
   position: relative;
   z-index: 110;
   background-color: #333333;
-}
-
-.header_top form {
-  position: absolute;
-  top: 50%;
-  right: 38px;
-  -webkit-transform: translate(0, -50%);
-          transform: translate(0, -50%);
-  width: 148px;
-  display: none;
-}
-
-.header_top form input[type="search"] {
-  width: 100%;
-  font-family: "游ゴシック Medium","Yu Gothic Medium","游ゴシック体", YuGothic;
-  font-weight: bold;
-  color: #333333;
-  background-color: #D3D3D3;
-  border: 0px;
-  border-radius: 4px;
-  padding: 15px 18px;
-}
-
-.header_top form input[type="search"]::-webkit-input-placeholder {
-  color: #333333;
-}
-
-.header_top form input[type="search"]:-ms-input-placeholder {
-  color: #333333;
-}
-
-.header_top form input[type="search"]::-ms-input-placeholder {
-  color: #333333;
-}
-
-.header_top form input[type="search"]::placeholder {
-  color: #333333;
 }
 
 .header_bottom {
@@ -523,9 +490,6 @@ textarea {
   .header_top {
     background-color: #ffffff;
   }
-  .header_top form {
-    display: block;
-  }
   .header_bottom {
     display: block;
     position: static;
@@ -585,11 +549,11 @@ textarea {
 
 /* footer */
 .footer {
-  font-family: "游ゴシック Medium","Yu Gothic Medium","游ゴシック体", YuGothic;
+  font-family: "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック体", YuGothic;
 }
 
 .footer_top {
-  background-color: #D3D3D3;
+  background-color: #d3d3d3;
 }
 
 .footer_top .footer_nav {
@@ -613,7 +577,7 @@ textarea {
 .footer_top .footer_nav-2 li span {
   padding: 9px 15px;
   width: 70%;
-  font-size: 2.0rem;
+  font-size: 2rem;
   font-weight: normal;
 }
 
@@ -641,14 +605,14 @@ textarea {
 }
 
 .footer_top .footer_twitter {
-  color: #2699FB;
+  color: #2699fb;
   background-color: #ffffff;
-  border: 1px solid #D3D3D3;
+  border: 1px solid #d3d3d3;
   padding: 37px 24px 88px;
 }
 
 .footer_bottom {
-  color: #FFFFFF;
+  color: #ffffff;
   background-color: #333333;
   padding: 8px 0 16px;
   text-align: center;
@@ -682,7 +646,7 @@ textarea {
   }
   .footer_top .footer_nav-1 a {
     color: #333333;
-    font-size: 2.0rem;
+    font-size: 2rem;
     font-weight: normal;
     text-align: left;
   }
@@ -707,14 +671,47 @@ textarea {
 /* postbox */
 .postbox {
   font-family: "arial";
-  padding: 125px 0 0;
+  padding: 65px 0 0;
+}
+
+.postbox_inner form {
+  width: 50%;
+  min-width: 148px;
+  display: block;
+  margin-bottom: 30px;
+}
+
+.postbox_inner form input[type="search"] {
+  width: 100%;
+  font-family: "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック体", YuGothic;
+  font-weight: bold;
+  color: #333333;
+  background-color: #d3d3d3;
+  border: 0px;
+  border-radius: 4px;
+  padding: 15px 18px;
+}
+
+.postbox_inner form input[type="search"]::-webkit-input-placeholder {
+  color: #333333;
+}
+
+.postbox_inner form input[type="search"]:-ms-input-placeholder {
+  color: #333333;
+}
+
+.postbox_inner form input[type="search"]::-ms-input-placeholder {
+  color: #333333;
+}
+
+.postbox_inner form input[type="search"]::placeholder {
+  color: #333333;
 }
 
 .postbox .cards .card {
   width: 100%;
-  max-width: 335px;
-  margin: 0 auto 65px;
-  border: 1px solid #95989A;
+  margin: 65px 0;
+  border: 1px solid #95989a;
 }
 
 .postbox .cards .card_img {
@@ -723,8 +720,8 @@ textarea {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-color: #D3D3D3;
-  border-bottom: 1px solid #95989A;
+  background-color: #d3d3d3;
+  border-bottom: 1px solid #95989a;
   position: relative;
 }
 
@@ -740,7 +737,7 @@ textarea {
   left: 30px;
   font-weight: bold;
   font-size: 1.2rem;
-  color: #FFFFFF;
+  color: #ffffff;
   -webkit-text-stroke: 1px #707070;
 }
 
@@ -751,7 +748,7 @@ textarea {
 
 .postbox .cards .card_text h2 {
   font-weight: bold;
-  font-size: 2.0rem;
+  font-size: 2rem;
   margin-bottom: 10px;
 }
 
@@ -759,6 +756,10 @@ textarea {
   font-weight: normal;
   font-size: 1.4rem;
   line-height: 1.7;
+}
+
+.postbox .cards .card:first-child {
+  margin-top: 0;
 }
 
 .postbox .cards .card:hover {
@@ -769,9 +770,9 @@ textarea {
   transition: 0.3s;
 }
 
-@media screen and (min-width: 960px) {
-  .postbox {
-    padding: 228px 0 0;
+@media screen and (min-width: 768px) {
+  .postbox_inner form {
+    margin-bottom: 20px;
   }
   .postbox .cards {
     display: -webkit-box;
@@ -784,13 +785,23 @@ textarea {
         flex-wrap: wrap;
   }
   .postbox .cards .card {
-    width: calc((100% - 20px *2 )/3);
+    width: calc((100% - 10px * 1) / 2);
+    margin: 0 0 65px;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  .postbox {
+    padding: 228px 0 0;
+  }
+  .postbox .cards .card {
+    width: calc((100% - 20px * 2) / 3);
     margin: 0 0 65px;
   }
   .postbox .cards:after {
     content: "";
     display: block;
-    width: calc((100% - 20px *2 )/3);
+    width: calc((100% - 20px * 2) / 3);
   }
 }
 
@@ -812,8 +823,8 @@ textarea {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-color: #D3D3D3;
-  border: 1px solid #95989A;
+  background-color: #d3d3d3;
+  border: 1px solid #95989a;
   position: relative;
 }
 
@@ -853,7 +864,7 @@ textarea {
       -ms-flex-order: 1;
           order: 1;
   font-weight: bold;
-  font-size: 3.0rem;
+  font-size: 3rem;
 }
 
 .profile .card_text .name h3 {
@@ -866,7 +877,7 @@ textarea {
 
 .profile .card_text .detail {
   padding: 25px 20px 10px;
-  border: 1px solid #95989A;
+  border: 1px solid #95989a;
   min-height: 420px;
 }
 
@@ -894,8 +905,8 @@ textarea {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: #D3D3D3;
-    border: 1px solid #95989A;
+    background-color: #d3d3d3;
+    border: 1px solid #95989a;
     border-right: 0;
     position: relative;
   }
@@ -912,7 +923,7 @@ textarea {
     font-size: 1.2rem;
   }
   .profile .card_text {
-    border: 1px solid #95989A;
+    border: 1px solid #95989a;
     padding: 18px 29px;
     width: calc(100% - 300px);
   }
@@ -949,7 +960,7 @@ textarea {
     min-height: auto;
   }
   .profile .card_text .detail p {
-    font-size: 2.0rem;
+    font-size: 2rem;
     line-height: 1.5;
     color: #707070;
   }
@@ -991,8 +1002,8 @@ textarea {
   display: inline-block;
   line-height: 48px;
   border-bottom: 4px solid #707070;
-  font-family: "游ゴシック Medium","Yu Gothic Medium","游ゴシック体", YuGothic;
-  font-size: 3.0rem;
+  font-family: "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック体", YuGothic;
+  font-size: 3rem;
   font-weight: bold;
 }
 
@@ -1017,8 +1028,8 @@ textarea {
     display: inline-block;
     line-height: 48px;
     border-bottom: 4px solid #707070;
-    font-family: "游ゴシック Medium","Yu Gothic Medium","游ゴシック体", YuGothic;
-    font-size: 3.0rem;
+    font-family: "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック体", YuGothic;
+    font-size: 3rem;
     font-weight: bold;
   }
   .search .cards {
@@ -1131,7 +1142,7 @@ textarea {
 
 .single_time h3 {
   font-family: "メイリオ", "Meiryo";
-  font-size: 2.0rem;
+  font-size: 2rem;
   font-weight: bold;
   text-align: center;
   color: #333333;
@@ -1142,8 +1153,8 @@ textarea {
 }
 
 .single_title h2 {
-  font-family: "游ゴシック Medium","Yu Gothic Medium","游ゴシック体", YuGothic;
-  font-size: 5.0rem;
+  font-family: "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック体", YuGothic;
+  font-size: 5rem;
   font-weight: bold;
   text-align: center;
   color: #333333;
@@ -1158,7 +1169,7 @@ textarea {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-color: #7FC4FD;
+  background-color: #7fc4fd;
 }
 
 .single_content {
